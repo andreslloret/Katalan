@@ -1,5 +1,6 @@
-<h2>Log in</h2>
-
+<div class="donkey-logo">
+<%= image_tag "logo-donkey.jpg", alt: "Katalan" %>
+</div>
 <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name), data: { turbo: :false }) do |f| %>
   <div class="form-inputs">
     <%= f.input :email,

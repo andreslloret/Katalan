@@ -1,1 +1,325 @@
-// Specific CSS for your home-page
+.landing-page {
+  background-color: #31393C;
+  height: 100%;
+
+  .catalan-logo {
+    margin-left: 71px;
+    margin-top: 23px;
+    width: 274px;
+    height: 116px;
+
+  }
+}
+
+h1,
+p {
+
+
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 145.47%;
+  /* or 47px */
+
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.145em;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px #F79824;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-actions {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  /*display: flex;*/
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 329px;
+  height: 63px;
+  left: 23px;
+  top: 663px;
+
+  background: #FF8C00;
+  border: 2px solid #000000;
+  /* Comics Elevation/elevation1 */
+
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 50px;
+
+}
+
+input[type="submit"][value="Log in"] {
+
+  font-family: 'Abhaya Libre ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 147.47%;
+  margin-left: 90px;
+
+  letter-spacing: 0.195em;
+  color: #0B121F;
+}
+
+.welcome-message {
+
+  margin-top: 100px;
+  font-family: 'Abhaya Libre ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 145.47%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.145em;
+  color: #000000;
+  text-shadow: 0px 4px 4px #F79824;
+  margin-left: 15px;
+
+}
+
+.egg {
+  width: 100%;
+  height: 100%;
+  background: #FFBB02;
+  display: block;
+
+  border-radius: 70% 70% 0% 0% / 70% 70% 40% 40%;
+}
+
+
+// /* Set the background color of the page */
+// body {
+//   background-color: #f1f1f1;
+// }
+// /* Center the container on the page */
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   height: 100vh;
+// }
+// /* Style the form inputs */
+// .form-inputs {
+//   margin-bottom: 20px;
+//   width: 100%;
+// }
+// .form-inputs input[type="email"],
+// .form-inputs input[type="password"] {
+//   background-color: #fff;
+//   border: 1px solid #ddd;
+//   border-radius: 3px;
+//   color: #333;
+//   font-family: Arial, sans-serif;
+//   font-size: 18px;
+//   padding: 10px;
+//   width: 100%;
+//   transition: border-color 0.3s ease;
+// }
+// .form-inputs input[type="email"]:focus,
+// .form-inputs input[type="password"]:focus {
+//   border-color: #0a6a8a;
+//   outline: none;
+// }
+// /* Style the form button */
+// .form-actions {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+// button[type="submit"] {
+//   background-color: #0a6a8a;
+//   border: none;
+//   color: #fff;
+//   font-family: Arial, sans-serif;
+//   font-size: 18px;
+//   font-weight: bold;
+//   padding: 10px 20px;
+//   transition: background-color 0.3s ease;
+//   text-transform: uppercase;
+//   cursor: pointer;
+// }
+// button[type="submit"]:hover {
+//   background-color: #094b63;
+// }
+
+// .container {
+//   max-width: 960px;
+//   margin: 0 auto;
+//   padding: 0 20px;
+// }
+
+// .landing-page {
+//   background-image: url('landing_page_1.jpg');
+//   background-size: cover;
+//   background-position: center center;
+//   min-height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .landing-page form {
+//   background-color: rgba(255, 255, 255, 0.8);
+//   padding: 20px;
+//   border-radius: 10px;
+// }
+
+// .landing-page input[type="text"],
+// .landing-page input[type="password"],
+// .landing-page button[type="submit"] {
+//   display: block;
+//   width: 100%;
+//   margin-bottom: 10px;
+//   padding: 10px;
+//   border-radius: 5px;
+//   border: none;
+//   font-size: 16px;
+// }
+
+// .landing-page button[type="submit"] {
+//   background-color: #4CAF50;
+//   color: white;
+//   cursor: pointer;
+// }
+#user_email {
+
+  width: 335px;
+  height: 41px;
+  left: 17px;
+  top: 462px;
+
+  background: #DEB137;
+  border: 2px solid #000000;
+  /* Comics Elevation/elevation1 */
+
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+#user_password {
+
+  width: 335px;
+  height: 41px;
+  left: 17px;
+  top: 462px;
+
+  background: #DEB137;
+  border: 2px solid #000000;
+  /* Comics Elevation/elevation1 */
+
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.donkey-logo {
+  margin-left: 80px;
+  margin-top: 23px;
+  width: 222px;
+  height: 351px;
+
+}
+
+.btn-login {
+
+background: #FF8C00;
+/* Yellow Scheme/Background/dark */
+
+border: 3px solid #16160A;
+box-shadow: 0px 3px 0px #16160A;
+border-radius: 50px;
+
+
+/* Sign Up */
+
+
+position: absolute;
+width: 238px;
+height: 43px;
+left: 70px;
+top: 642px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 147.47%;
+/* or 47px */
+
+
+text-align: center;
+letter-spacing: 0.195em;
+
+/* Grey/Grey - 900 */
+
+color: #0B121F;
+}
+
+.btn-signup {
+  position: absolute;
+  width: 173px;
+  height: 63px;
+  left: 102px;
+  top: 712px;
+
+  background: #FDCA40;
+  /* Yellow Scheme/Background/dark */
+
+  border: 3px solid #16160A;
+  box-shadow: 0px 3px 0px #16160A;
+  border-radius: 50px;
+
+
+position: absolute;
+width: 238px;
+height: 43px;
+left: 70px;
+top: 722px;
+
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 147.47%;
+/* or 47px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.195em;
+
+/* Grey/Grey - 900 */
+
+color: #0B121F;
+}
+.logo-home {
+  border-radius: 50% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    width: 115px;
+    height: 87px;
+  }

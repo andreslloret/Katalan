@@ -25,7 +25,7 @@ SimpleForm.setup do |config|
   config.boolean_style = :inline
 
   # You can wrap each item in a collection of radio/check boxes with a tag
-  config.item_wrapper_tag = :div
+  config.item_wrapper_tag = :divs
 
   # Defines if the default input wrapper class should be included in radio
   # collection wrappers.
